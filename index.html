@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Y&Z Studio - Creative House</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #101020, #1c1c2e);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header, footer {
+      background-color: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      padding: 1rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    .tagline {
+      font-size: 1rem;
+      color: #aaa;
+    }
+    main {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
+    section {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 2rem;
+      border-radius: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #ffd1dc;
+    }
+    p {
+      line-height: 1.8;
+    }
+    .pricing {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .price-card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      flex: 1;
+      min-width: 200px;
+      max-width: 300px;
+    }
+    .price-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: .5rem;
+    }
+    .price-card ul {
+      margin: 1rem 0;
+      padding-left: 1.2rem;
+    }
+    .price-card ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      font-size: 0.85rem;
+      color: #bbb;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    /* Floating buttons */
+    .floating-btn {
+      position: fixed;
+      right: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      z-index: 1000;
+    }
+    .floating-btn button {
+      background: #fff;
+      color: #111;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+      cursor: pointer;
+    }
+    .volume-toggle, .scroll-toggle {
+      position: fixed;
+      bottom: 15px;
+      z-index: 999;
+    }
+    .volume-toggle {
+      right: 15px;
+    }
+    .scroll-toggle {
+      right: 15px;
+      bottom: 70px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Y&Z Creative House</h1>
+    <p class="tagline">Setiap karya adalah cara kami berbicara, untuk ribuan cerita</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Layanan Kami</h2>
+      <p>Kami menyediakan layanan kreatif mulai dari video editing, branding, visual AI, hingga pengelolaan media sosial berbasis AI dan manual hybrid.</p>
+    </section>
+
+    <section>
+      <h2>Harga & Paket</h2>
+      <div class="pricing">
+        <div class="price-card">
+          <h3>Basic</h3>
+          <ul>
+            <li>1x desain/edit</li>
+            <li>1 revisi</li>
+            <li>Durasi pengerjaan: 3 hari</li>
+          </ul>
+        </div>
+        <div class="price-card">
+          <h3>Pro</h3>
+          <ul>
+            <li>3 desain/edit</li>
+            <li>3 revisi</li>
+            <li>Durasi pengerjaan: 5 hari</li>
+          </ul>
+        </div>
+        <div class="price-card">
+          <h3>Premium</h3>
+          <ul>
+            <li>Unlimited desain dalam paket</li>
+            <li>5 revisi</li>
+            <li>Durasi pengerjaan: 7 hari</li>
+          </ul>
+        </div>
+      </div>
+      <p>Catatan: Revisi maksimal 5 hari setelah karya dikirimkan. Pengerjaan tergantung tingkat kesulitan. Pembayaran via Dana ke nomor WhatsApp terdaftar. Setengah di awal, sisa setelah selesai.</p>
+    </section>
+
+    <section>
+      <h2>Fitur Unggulan</h2>
+      <p>Integrasi AI, editing profesional, desain responsif mobile, akses admin full dari HP/PC, animasi dinamis dan background interaktif, plus fitur suara dan efek subtle sesuai tren terkini.</p>
+    </section>
+
+    <section>
+      <h2>Q&A / FAQ</h2>
+      <p><strong>Tanya:</strong> Apakah semua admin bisa edit dari HP?<br><strong>Jawab:</strong> Ya, semua konten editable dari perangkat mobile.</p>
+    </section>
+
+    <section>
+      <h2>Portofolio</h2>
+      <p>Untuk sementara, kami sedang merapikan portofolio kami. Nantikan karya terbaru kami yang akan tampil secara elegan di halaman ini.</p>
+    </section>
+
+    <section>
+      <h2>Artikel</h2>
+      <p>Kami akan rutin membagikan insight, tips desain, strategi sosial media, dan artikel kreatif yang menginspirasi dari dunia visual dan bisnis digital.</p>
+    </section>
+
+    <section>
+      <h2>Form Partner</h2>
+      <p>Berminat menjadi mitra kami? Silakan hubungi melalui WhatsApp atau isi formulir partner (akan tersedia di update selanjutnya).</p>
+    </section>
+  </main>
+
+  <footer>
+    Hak Cipta Dilindungi & Powered by AI & Human Creativity
+  </footer>
+
+  <div class="floating-btn" style="top: 45%;">
+    <button onclick="window.open('https://wa.me/6285720906090', '_blank')">
+      <i class="fab fa-whatsapp"></i>
+    </button>
+    <button onclick="window.open('mailto:yudabastard84@gmail.com')">
+      <i class="fas fa-envelope"></i>
+    </button>
+  </div>
+
+  <button class="volume-toggle" onclick="toggleAudio()">
+    <i id="volumeIcon" class="fas fa-volume-up"></i>
+  </button>
+  <button class="scroll-toggle" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <audio id="bgm" loop>
+    <source src="midnight-chill.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const audio = document.getElementById('bgm');
+    const icon = document.getElementById('volumeIcon');
+    let playing = false;
+    function toggleAudio() {
+      playing = !playing;
+      if (playing) {
+        audio.play();
+        icon.classList.remove('fa-volume-mute');
+        icon.classList.add('fa-volume-up');
+      } else {
+        audio.pause();
+        icon.classList.remove('fa-volume-up');
+        icon.classList.add('fa-volume-mute');
+      }
+    }
+  </script>
+</body>
+</html>
